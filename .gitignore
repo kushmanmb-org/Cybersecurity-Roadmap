@@ -53,10 +53,10 @@ credentials
 *.azureSettings
 
 # Google Cloud
-*.json
-!package.json
-!package-lock.json
-!tsconfig.json
+*-key.json
+*-credentials.json
+service-account*.json
+gcloud-credentials*.json
 *.gcp
 
 # ===================================
@@ -293,7 +293,8 @@ loot/
 logs/
 
 # Nmap
-*.xml
+*.nmap.xml
+nmap-*.xml
 *.nmap
 
 # Burp Suite
