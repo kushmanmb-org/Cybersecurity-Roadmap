@@ -1,0 +1,368 @@
+# ===================================
+# Private Keys and Cryptographic Files
+# ===================================
+
+# SSH Keys
+*.pem
+*.key
+*.ppk
+id_rsa
+id_rsa.*
+id_dsa
+id_dsa.*
+id_ecdsa
+id_ecdsa.*
+id_ed25519
+id_ed25519.*
+*.pub
+known_hosts
+authorized_keys
+
+# PGP/GPG Keys
+*.gpg
+*.pgp
+*.asc
+secring.*
+pubring.*
+
+# SSL/TLS Certificates
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.p7b
+*.p7c
+
+# API Keys and Tokens
+.env
+.env.*
+!.env.example
+!.env.sample
+*.apikey
+*.token
+*.secret
+
+# AWS Credentials
+.aws/
+*.aws
+credentials
+
+# Azure Credentials
+*.azureProfile
+*.azureSettings
+
+# Google Cloud
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+*.gcp
+
+# ===================================
+# Sensitive Data Files
+# ===================================
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# Configuration with Secrets
+config.local.*
+config.private.*
+secrets.yaml
+secrets.yml
+vault.yml
+
+# Password Files
+*.pwd
+passwords.txt
+credentials.txt
+
+# ===================================
+# Operating System Files
+# ===================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ===================================
+# IDE and Editor Files
+# ===================================
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata
+
+# ===================================
+# Build Artifacts and Dependencies
+# ===================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.yarn-integrity
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+.tox/
+venv/
+ENV/
+env/
+.venv/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.bundle/
+vendor/bundle
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+go.work
+
+# Rust
+target/
+Cargo.lock
+
+# ===================================
+# Temporary and Cache Files
+# ===================================
+
+# General temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+.temp/
+.tmp/
+temp/
+tmp/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+
+# ===================================
+# Security and Penetration Testing
+# ===================================
+
+# Metasploit
+.msf4/
+*.rc
+loot/
+logs/
+
+# Nmap
+*.xml
+*.nmap
+
+# Burp Suite
+*.burp
+burp-*.log
+
+# Wireshark
+*.pcap
+*.pcapng
+*.cap
+
+# John the Ripper
+*.pot
+john.log
+
+# Hashcat
+*.hccapx
+*.potfile
+
+# Wordlists (often large and sensitive)
+wordlists/
+*.txt.gz
+rockyou.txt
+
+# Exploit code
+exploits/private/
+
+# ===================================
+# Cloud and Container Files
+# ===================================
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.rc
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# ===================================
+# Miscellaneous
+# ===================================
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Large media files (often not needed in version control)
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Compiled documentation
+*.pdf
+!docs/**/*.pdf
+
+# Personal notes
+NOTES.md
+TODO.md
+.scratch/
