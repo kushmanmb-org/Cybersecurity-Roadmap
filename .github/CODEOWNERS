@@ -1,0 +1,18 @@
+# CODEOWNERS
+# This file defines the owners of this repository.
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything in the repository
+* @kushmanmb-org/maintainers @Kushmanmb
+
+# Roadmap images and maps
+/maps/ @kushmanmb-org/maintainers @Kushmanmb
+
+# Security and governance files
+SECURITY.md @kushmanmb-org/maintainers @Kushmanmb
+CODE_OF_CONDUCT.md @kushmanmb-org/maintainers @Kushmanmb
+LICENSE @kushmanmb-org/maintainers @Kushmanmb
+
+# Package and node configuration
+package.json @kushmanmb-org/maintainers @Kushmanmb
+.nvmrc @kushmanmb-org/maintainers @Kushmanmb
