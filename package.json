@@ -1,0 +1,30 @@
+{
+  "name": "cybersecurity-roadmap",
+  "version": "2.0.0",
+  "description": "The Ultimate Hacker's Roadmap - A comprehensive guide to learning cybersecurity and ethical hacking",
+  "keywords": [
+    "cybersecurity",
+    "ethical-hacking",
+    "roadmap",
+    "penetration-testing",
+    "infosec",
+    "hacking"
+  ],
+  "homepage": "https://github.com/kushmanmb-org/Cybersecurity-Roadmap",
+  "bugs": {
+    "url": "https://github.com/kushmanmb-org/Cybersecurity-Roadmap/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kushmanmb-org/Cybersecurity-Roadmap.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "kushmanmb-org",
+    "url": "https://github.com/kushmanmb-org"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "private": true
+}
